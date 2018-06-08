@@ -10,22 +10,22 @@ _This application utilizes JavaScript and jQuery to allow users to any number to
 
 ## Specifications
 
-_Program will say "I'm sorry, Dave. I'm afraid I can't do that." if the input number is divisible by 3.
+Program will say "I'm sorry, Dave. I'm afraid I can't do that." if the input number is divisible by 3.
   - Example Input: "30"
-  - Example Output: "I'm sorry, Dave. I'm afraid I can't do that."_
+  - Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
 
-_Program will reply with "Boop!" if the number contains a 1.
+Program will reply with "Boop!" if the number contains a 1.
   - Example Input: "10"
-  - Example Output: "Boop!"_
+  - Example Output: "Boop!"
 
-_Program will reply with "Beep!" if the number contains a 0.
+Program will reply with "Beep!" if the number contains a 0.
   - Example Input: 20
-  - Example Output: "Beep!"_
+  - Example Output: "Beep!"
 
 
-_Program will return a list of numbers from 0 to the inputted number if none of the below conditions are met.
+Program will return a list of numbers from 0 to the inputted number if none of the below conditions are met.
   - Example Input: "44"
-  - Example Output: 0, 1, 2, 3, 4, 5, 6, 7, 8... 42, 43, 44"_
+  - Example Output: 0, 1, 2, 3, 4, 5, 6, 7, 8... 42, 43, 44"
 
 ## Setup/Installation Requirements
 
