@@ -40,6 +40,13 @@ button {
 }
 
 #results-section {
+  border-style: solid;
+  border-color: grey;
+  color: #04f700;
+  background-color: black;
+  padding: 20px;
+}
+#results-section {
   text-align: center;
 }
 

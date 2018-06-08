@@ -27,6 +27,11 @@ Program will return a list of numbers from 0 to the inputted number if none of t
   - Example Input: "44"
   - Example Output: 0, 1, 2, 3, 4, 5, 6, 7, 8... 42, 43, 44"
 
+Program will change its message if a new number is entered, rather than stacking onto the previous response.
+  - Current Response: "Beep!"
+  - Next Input: "10"
+  - Next Reply: "Boop!"
+
 ## Setup/Installation Requirements
 
 * _1. Open the link below in any web browser_
