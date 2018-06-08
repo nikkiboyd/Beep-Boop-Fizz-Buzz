@@ -1,8 +1,12 @@
 //Business Logic
-function robotSpeak() {
-  }
+function robotSpeak(inputNumber) {
+  var parsedInputNumber = parseInt(inputNumber)
+  if (parsedInputNumber % 3 === 0)
+  $("#divisible-by-three").show();
+}
 
 function divisibleByThree(inputNumber) {
+  parseInt(inputNumber)
   if (inputNumber % 3 === 0) {
   $("#divisible-by-three").show();
   }
@@ -34,15 +38,11 @@ function countToInput(a, b) {
   return allNumbers.toString();
 }
 
-$("button").click(function(){
-    $("p").html("Hello <b>world</b>!");
-});
-
 //User Interface Logic
 $(document).ready(function(){
   $("form#beep-boop").submit(function(event){
     event.preventDefault();
-    var userInput = $(parseInt("#user-input").val());
+    var userInput = $("#user-input").val();
     var robotOutput = robotSpeak(userInput);
     $("#result").text(robotOutput);
   });
