@@ -9,13 +9,16 @@ function robotSpeak(inputNumber) {
       containsOne(inputNumber);
     } else if (userArray.includes("0")) {
       containsZero(inputNumber);
-    }
+    } else {
+      countToInput(inputNumber);
   };
+};
 
 function divisibleByThree(inputNumber) {
   var parsedInputNumber = parseInt(inputNumber)
   if (parsedInputNumber % 3 === 0)
-  $("#divisible-by-three").show();
+  // $("#divisible-by-three").show();
+  $("#result").append("<b>I'm sorry, Dave. I'm afraid I can't do that.</b>");
   }
 
 function containsOne(inputNumber) {
@@ -23,7 +26,8 @@ function containsOne(inputNumber) {
   var splitNumber = string.split("");
   var numberOne = splitNumber.includes("1")
   if (numberOne === true) {
-    $("#boop").show();
+    // $("#boop").show();
+    $("#result").append("<b>Boop!</b>");
   }
 }
 
@@ -32,7 +36,8 @@ function containsZero(inputNumber) {
   var splitNumber = string.split("");
   var numberZero = splitNumber.includes("0")
   if (numberZero === true) {
-    $("#beep").show();
+    // $("#beep").show();
+    $("#result").append("<b>Beep!</b>");
   }
 }
 
