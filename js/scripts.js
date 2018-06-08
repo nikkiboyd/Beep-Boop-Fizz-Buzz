@@ -1,16 +1,22 @@
 //Business Logic
 function robotSpeak(inputNumber) {
   var parsedInputNumber = parseInt(inputNumber)
-  if (parsedInputNumber % 3 === 0)
-  $("#divisible-by-three").show();
-}
+  var userString = inputNumber
+  var userArray = userString.split("");
+    if (parsedInputNumber % 3 === 0) {
+      divisibleByThree(inputNumber);
+    } else if (userArray.includes("1")) {
+      containsOne(inputNumber);
+    } else if (userArray.includes("0")) {
+      containsZero(inputNumber);
+    }
+  };
 
 function divisibleByThree(inputNumber) {
-  parseInt(inputNumber)
-  if (inputNumber % 3 === 0) {
+  var parsedInputNumber = parseInt(inputNumber)
+  if (parsedInputNumber % 3 === 0)
   $("#divisible-by-three").show();
   }
-}
 
 function containsOne(inputNumber) {
   var string = inputNumber
