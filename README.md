@@ -14,12 +14,3 @@ Program will say "Beep" if the number contains a 0.
 Program will return a list of numbers from 0 to the inputted number if none of the below conditions are met.
   input: 4
   output: 0, 1, 2, 3, 4
-
-  may need to parseInt this one:
-  function countToInput(userInput) {
-    for(var i = 1; i <= userInput; i++) {
-        console.log(i);
-    }
-}
-
-countToInput();

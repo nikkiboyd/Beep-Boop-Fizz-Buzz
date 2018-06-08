@@ -26,6 +26,19 @@ function containsZero(inputNumber) {
   }
 }
 
+function countToInput(a, b) {
+  var allNumbers = [];
+  for (var i = a; i <= b; i++) {
+    allNumbers.push(i);
+  }
+  return allNumbers;
+  $("#counting").html(allNumbers);
+}
+
+$("button").click(function(){
+    $("p").html("Hello <b>world</b>!");
+});
+
 //User Interface Logic
 $(document).ready(function(){
   $("form#beep-boop").submit(function(event){
