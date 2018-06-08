@@ -3,6 +3,7 @@ function robotSpeak(inputNumber) {
   var parsedInputNumber = parseInt(inputNumber)
   var userString = inputNumber
   var userArray = userString.split("");
+
     if (parsedInputNumber % 3 === 0) {
       divisibleByThree(inputNumber);
     } else if (userArray.includes("1")) {
@@ -10,7 +11,7 @@ function robotSpeak(inputNumber) {
     } else if (userArray.includes("0")) {
       containsZero(inputNumber);
     } else {
-      countToInput(inputNumber);
+      countToInput(parsedInputNumber);
   };
 };
 
@@ -43,12 +44,13 @@ function containsZero(inputNumber) {
 
 function countToInput(inputNumber) {
   var allNumbers = [];
-  var finalString = "";
   for (var i = 0; i <= inputNumber; i++) {
     allNumbers.push(i);
+    var x = document.getElementById("result");
+    x.innerHTML = allNumbers.join();
   }
-  finalString = allNumbers.toString();
-  return finalString;
+  // var finalString = allNumbers.toString();
+  // return finalString;
 }
 
 //User Interface Logic
