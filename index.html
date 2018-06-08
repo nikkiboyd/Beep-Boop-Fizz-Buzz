@@ -2,22 +2,26 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Beep Boop</title>
+  <title>Beep Boop Bot - HAL 9000</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
-  <form id="beep-boop">
-    <div class="form-group">
-      <label for="formGroupExampleInput">Input a number to talk to the robot!</label>
-      <input id="user-input" type="text" class="form-control" placeholder="Talk to me here!">
+  <div class="container center">
+    <h1>HAL 9000 Bot</h1>
+    <form id="beep-boop">
+      <div class="form-group">
+        <img src="img/hal.png"><br>
+        <label for="formGroupExampleInput">Input a number to talk to to me!</label>
+        <input id="user-input" type="text" class="form-control" placeholder="Talk to me here!">
+      </div>
+      <button type="button" class="btn btn-primary">Say hi!</button>
+    </form>
+    <div id=results-section>
+      <p id="result"></p>
     </div>
-    <button type="button" class="btn btn-primary">Talk!</button>
-  </form>
-  <div id=results-section>
-    <p id="result"></p>
   </div>
 </body>
 </html>
