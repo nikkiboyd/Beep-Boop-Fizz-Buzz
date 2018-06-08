@@ -31,8 +31,7 @@ function countToInput(a, b) {
   for (var i = a; i <= b; i++) {
     allNumbers.push(i);
   }
-  return allNumbers;
-  $("#counting").html(allNumbers);
+  return allNumbers.toString();
 }
 
 $("button").click(function(){
