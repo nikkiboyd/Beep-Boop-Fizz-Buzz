@@ -10,9 +10,19 @@ function divisibleByThree(inputNumber) {
 
 function containsOne(inputNumber) {
   var string = inputNumber
-  var numberOne = string.indexOf("1")
-  if (numberOne === 0) {
+  var splitNumber = string.split("");
+  var numberOne = splitNumber.includes("1")
+  if (numberOne === true) {
     $("#boop").show();
+  }
+}
+
+function containsZero(inputNumber) {
+  var string = inputNumber
+  var splitNumber = string.split("");
+  var numberZero = splitNumber.includes("0")
+  if (numberZero === true) {
+    $("#beep").show();
   }
 }
 
