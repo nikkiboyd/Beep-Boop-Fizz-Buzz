@@ -49,7 +49,7 @@ function countToInput(inputNumber) {
 
 //User Interface Logic
 $(document).ready(function() {
-  $("form#beep-boop").submit(function(event) {
+  $("#beep-boop").submit(function(event) {
     event.preventDefault();
     var userInput = $("#user-input").val();
     var robotOutput = robotSpeak(userInput);
