@@ -1,0 +1,63 @@
+h1 {
+padding-top: 40px;
+font-family: 'Orbitron', sans-serif;
+}
+
+img {
+  width: 30%
+}
+
+p {
+  font-size: 40px;
+  font-family: 'Aldrich', sans-serif;
+}
+
+label {
+  padding: 30px;
+  font-size: 20px;
+  font-family: 'Aldrich', sans-serif;
+}
+
+input {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Aldrich', sans-serif;
+}
+
+button {
+  width: 200px;
+  font-size: 30px;
+  font-family: 'Aldrich', sans-serif;
+  margin: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#results-section {
+  border-style: solid;
+  border-color: grey;
+  color: #04f700;
+  background-color: black;
+  padding: 20px;
+}
+#results-section {
+  text-align: center;
+}
+
+#divisible-by-three {
+  display: none;
+}
+
+#boop {
+  display: none;
+}
+
+#beep {
+  display: none;
+}
